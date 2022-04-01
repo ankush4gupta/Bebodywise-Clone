@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        /* Slideshow container */
+        .slideshow-container {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+            display: flex;
+
+            /* width: 30%; */
+        }
+
+        .mySlides {
+            width: 30%;
+            overflow: hidden;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        /* Next & previous buttons */
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: rgb(147, 37, 37);
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+
+        /* Position the "next button" to the right */
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+
+
+
+        /* The dots/bullets/indicators */
+
+
+
+
+        /* Fading animation */
+        .fade {
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="dropdown">
+        <div>Choose Concern
+            <i class="fa fa-caret-down"></i>
+        </div>
+        <div class="dropdown-content">
+            <a href="#">Hair </a>
+            <a href="#">Skin </a>
+            <a href="#">Nutrition </a>
+            <a href="#">PCOS </a>
+            <a href="#">Intimate Care </a>
+        </div>
+    </div>
+
+    <div class="slideshow-container">
+
+        <!-- <div class="mySlides fade">
+
+            <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" style="width:100%">
+
+        </div>
+
+        <div class="mySlides fade">
+
+            <img src="https://www.w3schools.com/howto/img_snow_wide.jpg" style="width:100%">
+
+        </div>
+
+        <div class="mySlides fade">
+
+            <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" style="width:100%">
+
+        </div> -->
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+    </div>
+    <br>
+    <div id="h"></div>
+
+
+
+    <script>
+        arr = ["https://www.w3schools.com/howto/img_nature_wide.jpg", "https://www.w3schools.com/howto/img_lights_wide.jpg", "https://www.w3schools.com/howto/img_woods_wide.jpg", "https://www.w3schools.com/howto/img_5terre_wide.jpg", "https://www.w3schools.com/howto/img_snow_wide.jpg", "https://www.w3schools.com/howto/img_mountains_wide.jpg"]
+        display(arr)
+        function display(arr) {
+            console.log("hello")
+            arr.map((ele) => {
+                let img = document.createElement("img");
+                img.src = ele;
+                let div = document.createElement("div");
+                div.setAttribute("class", "mySlides fade")
+                div.append(img);
+                console.log(div)
+                document.querySelector(".slideshow-container").append(div);
+            })
+
+
+        }
+
+
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            // let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (let i = n + 1; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (let i = 0; i < n; i++) {
+                slides[slideIndex - 1].style.display = "block";
+            }
+            // for (i = n; i < slides.length; i++) {
+
+            //     slides[i].style.display = "none";
+            // }
+            // for (let i = n; i < n; i++) {
+
+            //     slides[slideIndex - 1].style.display = "block";
+            // }
+
+        }
+    </script>
+
+</body>
+
+</html>

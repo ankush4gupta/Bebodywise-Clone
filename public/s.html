@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="s.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <section>
+
+
+
+        <div class="slideshow-container1">
+
+
+        </div>
+
+
+     
+    </section>
+</body>
+
+</html>
+<script>
+    arr = [{
+        "images": {
+            "img1": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1622537985/staging/products/hair-health-gummies/Carousel%20NEW/5000mcg_-_1000x750.jpg",
+            "img2": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1613207198/staging/products/hair-health-gummies/Carousel%20NEW/NEW_pdp_hair_gummies-03.jpg",
+            "img3": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1632138589/staging/products/hair-health-gummies/Carousel%20NEW/baby-and-mother-PDP.png",
+            "img4": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1622537988/staging/products/hair-health-gummies/Carousel%20NEW/5000mcg-_review-1000x750.jpg"
+        },
+        "name": "Biotin Hair Grmmies (30)",
+        "category": "Hair",
+        "rating": 4,
+        "main_price": null,
+        "discount_price": 499,
+        "For": "Hair Growth & Strength",
+        "With": "Biotin 5000 MCG, Multivitamins, Zinc",
+        "discription": "00% Vegan Hair Vitamins for Women",
+        "quant": 1
+    },
+    {
+        "images": {
+            "img1": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1645444045/staging/products/Hair%20Growth%20Concentrate/0_CAROUSEL/HGS_1000X750.png",
+            "img2": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1645444043/staging/products/Hair%20Growth%20Concentrate/0_CAROUSEL/4.jpg",
+            "img3": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1645444041/staging/products/Hair%20Growth%20Concentrate/0_CAROUSEL/3.jpg",
+            "img4": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1645444044/staging/products/Hair%20Growth%20Concentrate/0_CAROUSEL/1.jpg"
+        },
+        "name": "Hair Growth Serum",
+        "category": "Hair",
+        "rating": 5,
+        "main_price": 899,
+        "discount_price": 799,
+        "For": "Hair Growth",
+        "With": "3% Redensyl, 3% Procapil, 2% Baicapil",
+        "discription": "With 3% Redensyl, 3% Procapil, 2% Baicapil, 3% Fenugreek, 3% Moringa",
+        "quant": 1
+    },
+    {
+        "images": {
+            "img1": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1637851322/staging/products/effervescent-biotin-tablets/CAROUSEL/0.png",
+            "img2": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1637851322/staging/products/effervescent-biotin-tablets/CAROUSEL/1.png",
+            "img3": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1637851322/staging/products/effervescent-biotin-tablets/CAROUSEL/3.png",
+            "img4": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1637851321/staging/products/effervescent-biotin-tablets/CAROUSEL/4.png"
+        },
+        "name": "Effervescent Biotin Tablets",
+        "category": "Hair",
+        "rating": 5,
+        "main_price": null,
+        "discount_price": 299,
+        "For": "Hair Growth, Hair health, Hair fall",
+        "With": "Biotin, Sesbania Extract , Beta-sitosterol",
+        "discription": "FOR hair growth, hair health & hair fall",
+        "quant": 1
+    },
+    {
+        "images": {
+            "img1": "https://s3.us-west-2.amazonaws.com/stamped.io/uploads/productImages/151010_53.jpg",
+            "img2": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1620055800/staging/products/buying-options/Hair%20Restore%20Edition/New%20Carousel/Hair_Restore_Edition--02.jpg",
+            "img3": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1620055799/staging/products/buying-options/Hair%20Restore%20Edition/New%20Carousel/Hair_Restore_Edition--03.jpg",
+            "img4": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1620055801/staging/products/buying-options/Hair%20Restore%20Edition/New%20Carousel/Hair_Restore_Edition--01.jpg"
+        },
+        "name": "Hair Restore Edition",
+        "category": "Hair",
+        "rating": 4,
+        "main_price": 1946,
+        "discount_price": 1499,
+        "For": "Hair Fall Control",
+        "With": "Silk Protein Conditioner, Biotin Shampoo, Onion Hair Oil",
+        "discription": "FOR: Hair Fall Control",
+        "quant": 1
+    }]
+    display(arr)
+    function display(arr) {
+        // document.querySelector(".slideshow-container").textContent = null;
+
+        arr.map((ele) => {
+            // rating
+            let rating = document.createElement("div");
+            rating.setAttribute("class", "rating")
+            let r = ele.rating;
+            for (let i = 0; i < ele.rating; i++) {
+                let start = document.createElement("span");
+                start.innerHTML = "star"
+                start.setAttribute("class", "material-icons size_start");
+
+
+                rating.append(start);
+            }
+
+            // images
+            let img = document.createElement("img");
+            img.src = ele.images.img1;
+            // brand name
+            let name = document.createElement("p");
+            name.setAttribute("class", "brand_name")
+            name.innerHTML = ele.name;
+
+            // price div 
+            let price_div = document.createElement("div");
+            price_div.setAttribute("class", "price_div");
+            let discount_price = document.createElement("p");
+            discount_price.innerHTML = `<sup>₹</sup>${ele.discount_price}`;
+            let main_price = document.createElement("p");
+            main_price.innerHTML = ele.main_price;
+            price_div.append(discount_price, main_price);
+
+            //  for and with 
+
+            let for_p = document.createElement("p");
+            for_p.setAttribute("class", "description");
+            for_p.innerHTML = `<span>For</span> ${ele.For}`;
+            let with_p = document.createElement("p");
+            with_p.innerHTML = `<span>With</span> ${ele.With}`;
+            with_p.setAttribute("class", "description")
+
+            // Button
+
+            let button = document.createElement("button");
+            button.innerHTML = "Add to Cart";
+
+
+            let div = document.createElement("div");
+            div.setAttribute("class", "mySlides")
+            div.append(img, rating, name, price_div, for_p, with_p, button);
+
+            document.querySelector(".slideshow-container1").append(div);
+        })
+
+
+    }
+    // document.querySelector("button").onclick = () => {
+    //     console.log("je")
+
+    //     let p = arr.pop()
+    //     let q = "https://www.w3schools.com/howto/img_snow_wide.jpg";
+    //     arr.push(q)
+    //     display(arr)
+    // }
+
+
+
+</script>
+<!-- , "https://www.w3schools.com/howto/img_snow_wide.jpg", "https://www.w3schools.com/howto/img_mountains_wide.jpg" -->
+
+
+
+
+
+<!-- {
+"images": {
+"img1": "",
+"img2": "",
+"img3": "",
+"img4": ""
+},
+"name": "",
+"category": "Hair",
+"rating": ,
+"main_price": ,
+"discount_price": ,
+"For": "",
+"With": "",
+"discription": "",
+"quant": 1
+} -->

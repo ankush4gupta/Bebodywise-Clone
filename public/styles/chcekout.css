@@ -1,0 +1,60 @@
+.d1 {
+    width: 100%;
+
+}
+
+body {
+    background-color: #e5e5e5;
+}
+
+.order {
+    width: 78%;
+    margin: auto;
+
+    /* border: 1px solid green; */
+    /* height: 400px; */
+    display: grid;
+    grid-template-columns: 55% 40%;
+    /* gap: 3%; */
+    justify-content: center;
+}
+
+
+.order1 {
+    background-color: rgb(250, 250, 250);
+}
+
+
+.address {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.address input {
+    padding: 10px;
+    /* width: 100%; */
+    margin-top: 3px;
+    margin-bottom: 5px;
+    outline: none;
+    border: transparent;
+    border-bottom: 1px solid lightgray;
+}
+
+.address>div>input {
+    width: 45%;
+}
+
+.address_btn {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+
+}

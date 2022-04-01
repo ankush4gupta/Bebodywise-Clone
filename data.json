@@ -1,0 +1,146 @@
+[
+    {
+        "images": {
+            "img1": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1622537985/staging/products/hair-health-gummies/Carousel%20NEW/5000mcg_-_1000x750.jpg",
+            "img2": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1613207198/staging/products/hair-health-gummies/Carousel%20NEW/NEW_pdp_hair_gummies-03.jpg",
+            "img3": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1632138589/staging/products/hair-health-gummies/Carousel%20NEW/baby-and-mother-PDP.png",
+            "img4": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1622537988/staging/products/hair-health-gummies/Carousel%20NEW/5000mcg-_review-1000x750.jpg"
+        },
+        "name": "Biotin Hair Grmmies (30)",
+        "category": "Hair",
+        "rating": 4,
+        "main_price": null,
+        "discount_price": 499,
+        "For": "Hair Growth & Strength",
+        "With": "Biotin 5000 MCG, Multivitamins, Zinc",
+        "discription": "00% Vegan Hair Vitamins for Women",
+        "quant": 1,
+        "id": "001"
+    },
+    {
+        "images": {
+            "img1": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1645444045/staging/products/Hair%20Growth%20Concentrate/0_CAROUSEL/HGS_1000X750.png",
+            "img2": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1645444043/staging/products/Hair%20Growth%20Concentrate/0_CAROUSEL/4.jpg",
+            "img3": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1645444041/staging/products/Hair%20Growth%20Concentrate/0_CAROUSEL/3.jpg",
+            "img4": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1645444044/staging/products/Hair%20Growth%20Concentrate/0_CAROUSEL/1.jpg"
+        },
+        "name": "Hair Growth Serum",
+        "category": "Hair",
+        "rating": 5,
+        "main_price": 899,
+        "discount_price": 799,
+        "For": "Hair Growth",
+        "With": "3% Redensyl, 3% Procapil, 2% Baicapil",
+        "discription": "With 3% Redensyl, 3% Procapil, 2% Baicapil, 3% Fenugreek, 3% Moringa",
+        "quant": 1,
+        "id": "002"
+    },
+    {
+        "images": {
+            "img1": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1637851322/staging/products/effervescent-biotin-tablets/CAROUSEL/0.png",
+            "img2": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1637851322/staging/products/effervescent-biotin-tablets/CAROUSEL/1.png",
+            "img3": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1637851322/staging/products/effervescent-biotin-tablets/CAROUSEL/3.png",
+            "img4": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1637851321/staging/products/effervescent-biotin-tablets/CAROUSEL/4.png"
+        },
+        "name": "Effervescent Biotin Tablets",
+        "category": "Hair",
+        "rating": 5,
+        "main_price": null,
+        "discount_price": 299,
+        "For": "Hair Growth, Hair health, Hair fall",
+        "With": "Biotin, Sesbania Extract , Beta-sitosterol",
+        "discription": "FOR hair growth, hair health & hair fall",
+        "quant": 1,
+        "id": "003"
+    },
+    {
+        "images": {
+            "img1": "https://s3.us-west-2.amazonaws.com/stamped.io/uploads/productImages/151010_53.jpg",
+            "img2": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1620055800/staging/products/buying-options/Hair%20Restore%20Edition/New%20Carousel/Hair_Restore_Edition--02.jpg",
+            "img3": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1620055799/staging/products/buying-options/Hair%20Restore%20Edition/New%20Carousel/Hair_Restore_Edition--03.jpg",
+            "img4": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1620055801/staging/products/buying-options/Hair%20Restore%20Edition/New%20Carousel/Hair_Restore_Edition--01.jpg"
+        },
+        "name": "Hair Restore Edition",
+        "category": "Hair",
+        "rating": 4,
+        "main_price": 1946,
+        "discount_price": 1499,
+        "For": "Hair Fall Control",
+        "With": "Silk Protein Conditioner, Biotin Shampoo, Onion Hair Oil",
+        "discription": "FOR: Hair Fall Control",
+        "quant": 1,
+        "id": "004"
+    },
+    {
+        "images": {
+            "img1": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1643026276/staging/products/buying-options/clear%20skin%20edition/0_BLUE/CAROUSEL/0_N_2.png",
+            "img2": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1643026274/staging/products/buying-options/clear%20skin%20edition/0_BLUE/CAROUSEL/2_N.png",
+            "img3": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1634274620/staging/products/buying-options/clear%20skin%20edition/0_BLUE/CAROUSEL/3.png",
+            "img4": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1634274634/staging/products/buying-options/clear%20skin%20edition/0_BLUE/CAROUSEL/4.png"
+        },
+        "name": "The Clear Skin Edition",
+        "category": "Skin",
+        "rating": 5,
+        "main_price": 1849,
+        "discount_price": 1379,
+        "For": "Active ance, Acne scars",
+        "With": "10% Niacinmide Serum, AHA-BHA Facewash, AHA-BHA Gel, Broad Spectrun SPF 30",
+        "discription": "FOR: Acne-prone skin",
+        "quant": 1,
+        "id": "005"
+    },
+    {
+        "images": {
+            "img1": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1639457737/staging/products/buying-options/Skin%20Glow%20Starter%20Pack/0_BLUE/CAROUSEL/0__1.png",
+            "img2": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1639457742/staging/products/buying-options/Skin%20Glow%20Starter%20Pack/0_BLUE/CAROUSEL/4.png",
+            "img3": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1639457736/staging/products/buying-options/Skin%20Glow%20Starter%20Pack/0_BLUE/CAROUSEL/2.png",
+            "img4": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1639457738/staging/products/buying-options/Skin%20Glow%20Starter%20Pack/0_BLUE/CAROUSEL/1.png"
+        },
+        "name": "Skin Glow Starter Pack",
+        "category": "Skin",
+        "rating": 4,
+        "main_price": 1299,
+        "discount_price": 1099,
+        "For": "Bright & Glowing skin",
+        "With": "20% Vitamin C Serum, Skin Health Gummies",
+        "discription": "FOR: Glowing, Even tonned Skin",
+        "quant": 1,
+        "id": "006"
+    },
+    {
+        "images": {
+            "img1": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1631345517/staging/products/skin-clarifying/0_BLUE/CAROUSEL2/00.png",
+            "img2": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800/v1637322191/staging/products/skin-clarifying/0_BLUE/CAROUSEL2/01_N.png",
+            "img3": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1631345527/staging/products/skin-clarifying/0_BLUE/CAROUSEL2/02.png",
+            "img4": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1631345531/staging/products/skin-clarifying/0_BLUE/CAROUSEL2/03.png"
+        },
+        "name": "10 % Niacinmide Serum | 30 ml",
+        "category": "Skin",
+        "rating": 4,
+        "main_price": 599,
+        "discount_price": 489,
+        "For": "Acne Marks, Hyperpigmentation",
+        "With": "10% Niacinmide, 1% Zinc PCA",
+        "discription": "Face Serum for Acne Marks & Oily Skin",
+        "quant": 1,
+        "id": "007"
+    },
+    {
+        "images": {
+            "img1": "https://res.cloudinary.com/mosaic-wellness/image/upload/v1615635403/staging/products/adapalene-benzoyl/Carousel/Adapalene_BP.jpg",
+            "img2": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1615635403/staging/products/adapalene-benzoyl/Carousel/adapalene_c-02.jpg",
+            "img3": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1615635535/staging/products/adapalene-benzoyl/Carousel/What_makes_it_work_.png",
+            "img4": "https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1615635401/staging/products/adapalene-benzoyl/Carousel/adapalene_c-03.jpg"
+        },
+        "name": "Adapalene and Benzoyl Peroxide Gel",
+        "category": "Skin",
+        "rating": 5,
+        "main_price": null,
+        "discount_price": 399,
+        "For": "Active Acne",
+        "With": "2.5% Benzoyl peroxide",
+        "discription": "FOR: Active acne",
+        "quant": 1,
+        "id": "008"
+    }
+]

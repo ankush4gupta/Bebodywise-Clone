@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background: #353b45 !important;
+        font-family: 'Poppins';
+    }
+
+    .flt-left {
+        float: left;
+    }
+
+    .carousel {
+        width: 100%;
+        margin: auto;
+    }
+
+    .row {
+        width: 90%;
+        padding: 0;
+        overflow: hidden;
+        margin: auto;
+    }
+
+    .row-container {
+        width: 2000px;
+        transition: 0.5s;
+        padding: 10px;
+    }
+
+    .container {
+        width: 250px;
+
+        float: left;
+        display: inline;
+        margin: 0 5px;
+
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    .controls {
+        width: 100%;
+        margin: auto;
+    }
+
+    .container>img {
+        width: 100%;
+    }
+
+    button {
+        border: none;
+        padding: 10px 20px;
+        color: white;
+        background: #21252b;
+        font-weight: bold;
+        outline: none;
+        border-radius: 3px;
+        height: 200px;
+        position: relative;
+    }
+</style>
+
+<body>
+    <div class="carousel">
+        <button class='flt-left' onclick="slideRight(this);"><i class="fa fa-angle-left"
+                aria-hidden="true"></i></button>
+        <div class="row flt-left">
+
+            <div class="row-container">
+                <!-- <div class="container">
+                    <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" />
+                </div>
+                <div class="container">
+                    <img src="https://www.w3schools.com/howto/img_lights_wide.jpg" />
+                </div>
+                <div class="container">
+                    <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" />
+                </div>
+                <div class="container">
+                    <img src="https://www.w3schools.com/howto/img_woods_wide.jpg" />
+                </div>
+                <div class="container">
+                    <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" />
+                </div>
+                <div class="container">
+                    <img src="https://www.w3schools.com/howto/img_woods_wide.jpg" />
+                </div> -->
+                <div class="clear"></div>
+            </div>
+
+        </div>
+        <button class='flt-left' onclick="slideLeft(this);"><i class="fa fa-angle-right"
+                aria-hidden="true"></i></button>
+        <div class="clear"></div>
+    </div>
+</body>
+
+</html>
+<script>
+    /*
+    Author : Mohd Shibli
+    Year : 2017
+    */
+    arr = ["https://www.w3schools.com/howto/img_nature_wide.jpg", "https://www.w3schools.com/howto/img_lights_wide.jpg", "https://www.w3schools.com/howto/img_woods_wide.jpg", "https://www.w3schools.com/howto/img_5terre_wide.jpg", "https://www.w3schools.com/howto/img_snow_wide.jpg", "https://www.w3schools.com/howto/img_mountains_wide.jpg"]
+    display(arr)
+    function display(arr) {
+        console.log("hello")
+        arr.map((ele) => {
+            let img = document.createElement("img");
+            img.src = ele;
+            let div = document.createElement("div");
+            div.setAttribute("class", "container")
+            div.append(img);
+            console.log(div)
+            document.querySelector(".row-container").append(div);
+        })
+
+
+    }
+
+    var right = 0;
+    var maxMargin;
+    var jumpMargin = 150;
+
+    function setWidth() {
+        var boxwidth = document.querySelector(".container").offsetWidth;
+        var displaywidth = document.querySelector(".row").offsetWidth;
+        var displayheight = document.querySelector(".row").offsetHeight;
+        var children = document.querySelectorAll(".row-container > .container").length;
+        var outerboxwidth = children * boxwidth + (children * 10);
+        document.querySelector(".row-container").style.width = outerboxwidth + "px";
+        document.querySelectorAll("button")[0].style.height = displayheight + "px";
+        document.querySelectorAll("button")[1].style.height = displayheight + "px";
+        maxMargin = outerboxwidth - displaywidth;
+    }
+
+    function slideLeft(event) {
+        var rowcont = document.querySelector(".row-container");
+        if (right <= -maxMargin) {
+            event.preventDefault();
+        }
+        else {
+            right -= jumpMargin;
+        }
+        rowcont.style.marginLeft = right + "px";
+    }
+
+    function slideRight(event) {
+        var rowcont = document.querySelector(".row-container");
+        if (right == 0) {
+            event.preventDefault();
+        }
+        else if (right >= maxMargin) {
+            event.preventDefault();
+        }
+        else {
+            right += jumpMargin;
+        }
+        rowcont.style.marginLeft = right + "px";
+    }
+
+    window.onload = setWidth;
+</script>

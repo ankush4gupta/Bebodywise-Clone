@@ -1,0 +1,680 @@
+/* ***********************************BANNER SECTION*********************** */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.banner {
+    width: 70%;
+    margin: auto;
+}
+
+.banner_main {
+    /* border: 1px solid red; */
+    width: 100%;
+    /* height: 200px; */
+    display: flex;
+}
+
+
+/* ------------------------banner_sub1-------------------- */
+
+
+.banner_sub1 {
+    /* border: 1px solid green; */
+    width: 55%;
+    /* height: 150px; */
+}
+
+.brand_name {
+    font-size: 80px;
+    /* border: 1px solid rgb(26, 0, 128); */
+}
+
+.banner_sub1>p {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 20px;
+
+
+}
+
+.banner_main_card {
+    padding-left: 10px;
+    padding-top: 15px;
+    /* border: 1px solid rgb(128, 0, 100); */
+    width: 74%;
+    /* height: 80px; */
+    background-color: #379f8e;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+}
+
+.banner_main_card p {
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+#banner_text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.banner_main_card>div:nth-child(2) {
+    /* border: 4px solid blue; */
+    width: 46%;
+    position: absolute;
+    top: -32px;
+    right: 0px;
+
+    /* height: 50%; */
+}
+
+.banner_main_card img {
+    border-radius: 20px;
+}
+
+.banner_btn {
+    padding: 10px 20px;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    border-radius: 10px;
+    border: transparent;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+
+/* ----------------------------banner_sub2---------------------------- */
+
+
+.banner_sub2 {
+    /* border: 1px solid green; */
+    width: 45%;
+    /* height: 90%; */
+    /* height: 150px; */
+    display: flex;
+}
+
+.banner_sub2_img1 {
+    width: 50%;
+    height: 90%;
+    background-color: #fdf5eb;
+    border-radius: 39px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.banner_sub2_img1>img {
+    width: 100%;
+    border-radius: 39px;
+    /* background-size: cover; */
+    /* height: 0%; */
+
+}
+
+.banner_sub2_img2 {
+    /* width:95%; */
+    /* height: 85%; */
+    /* background-color: #fdf5eb; */
+    border-radius: 39px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: right;
+    /* align-items: center; */
+    margin-left: 20px;
+
+
+}
+
+.banner_sub2_img2>img {
+    /* margin-bottom: 10px; */
+    /* width: 96%; */
+    width: 100%;
+    border-radius: 39px;
+    height: 100%;
+    margin-left: 10px;
+    /* display: flex;
+    justify-content: right; */
+
+}
+
+.banner_sub2_img2:nth-child(1) {
+    margin-bottom: 10px;
+    background-color: #f6f6f6;
+    /* display: flex;
+    justify-content: right; */
+    /* height: 55%; */
+}
+
+.banner_sub2_img2:nth-child(2) {
+    height: 38%;
+    background-color: #f6f6f6;
+
+}
+
+/* *********************************************** */
+
+/* banner_main part two  */
+
+.banner_main:nth-child(2)>div {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 4%; */
+
+}
+
+.banner_main:nth-child(2)>div>img {
+    width: 20%;
+    margin-left: 5px;
+}
+
+/* **********************************section 2*************  */
+.B2 {
+    width: 100%;
+    background-color: #f6f6f6;
+
+}
+
+.banner2 {
+    width: 65%;
+    /* border: 1px solid saddlebrown; */
+    margin: auto;
+    /* height: 200px; */
+    display: flex;
+    padding-top: 10px;
+    gap: 30px;
+    align-items: flex-end;
+
+}
+
+.banner2_div1>img {
+    width: 115%;
+    height: 95%;
+    margin-bottom: 0px;
+}
+
+.banner2_div2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 210px;
+}
+
+.banner2_div2>h1 {
+    font-size: 35px;
+    margin-bottom: 3px;
+    font-weight: normal;
+}
+
+.banner2_div2>p {
+    margin-top: 3px;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.banner2_div2 .btn2 {
+    /* padding-left: 50px; */
+    /* padding-right: 50px; */
+    padding: 15px 70px 15px 70px;
+    border-radius: 17px;
+    cursor: pointer;
+}
+
+/* *************************SECTION 3*********** */
+.B3 {
+    width: 100%;
+    padding: 5% 0% 5% 0%;
+
+}
+
+.b3_div {
+    width: 65%;
+    /* border: 2px solid red; */
+    /* height: 200px; */
+    margin: auto;
+}
+
+.b3_div>h2 {
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.b3_div_item {
+    display: flex;
+    width: 100%;
+
+    justify-content: space-between;
+
+}
+
+.b3_div_item>div {
+    width: 31%;
+    /* border: 1px solid green;    */
+}
+
+.b3_div_item>div>h1 {
+    color: #007061;
+    font-size: 90px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.b3_div_item>div>h2 {
+    font-size: 27px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.b3_div_item>div>p {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+/* ***************section 4 HAIR 1 Start  ************** */
+
+.B4,
+.B5 {
+    width: 100%;
+    position: relative;
+
+}
+
+.b4_div {
+    /* height: 600px; */
+    background-color: #675680;
+    width: 100%;
+}
+
+.hair {
+    background-image: url("https://res.cloudinary.com/mosaic-wellness/image/upload/v1618311675/new%20home/image_24_1.png");
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: 35% 95%;
+    background-blend-mode: multiply;
+    /* height: 547px; */
+    /* height: 20%; */
+}
+
+.b4_sub_div {
+    width: 45%;
+    /* border :2px solid blue; */
+    padding-top: 6%;
+    padding-bottom: 16%;
+    margin-left: 16%;
+}
+
+.b4_sub_div>p:nth-child(1) {
+    color: white;
+    font-size: 40px;
+}
+
+.b4_sub_div>p:nth-child(2) {
+    color: hsla(0, 0%, 100%, .7);
+    font-size: 24px;
+}
+
+.b4_sub_div>button {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 16px;
+    padding: 5px 20px;
+    line-height: 27px;
+    border: transparent;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.b4_div_card {
+    position: absolute;
+    /* border: 2px solid black; */
+    /* width: 100%; */
+    /* height: 200px; */
+    bottom: -77%;
+    left: 15%
+        /* margin: auto; */
+
+
+
+
+}
+
+/* ************************************** */
+/* _________________card css start__________________ */
+.slideshow-container1,
+.slideshow-container2 {
+    display: flex;
+    /* width: 100%; */
+    width: 68%;
+    overflow: scroll;
+    margin: auto;
+
+
+    /* border: 2px solid blue; */
+}
+
+.mySlides {
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    box-shadow: 0 17.2866px 17.2866px rgb(0 0 0 / 10%);
+    justify-content: space-between;
+    border-radius: 20.7px;
+    margin-right: 30px;
+    /* overflow-x: hidden; */
+    /* align-items: stretch; */
+    /* gap:40px */
+}
+
+.mySlides>img {
+    border-radius: 15px;
+}
+
+.rating {
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+.material-icons.size_start {
+    font-size: 20px;
+    color: #e4ae2c;
+    /* margin-top: 10px; */
+    /* margin-left: 10px; */
+    /* padding-left: 10px;   */
+}
+
+.mySlides>p,
+.price_div {
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.mySlides>.brand_name {
+    font-size: 20px;
+    margin-bottom: 5px;
+
+}
+
+.price_div {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px
+}
+
+.price_div sup {
+    font-size: 16px;
+    font-weight: normal;
+
+}
+
+.price_div>p:nth-child(1) {
+    margin-top: 5px;
+    font-size: 25px !important;
+    font-weight: bold;
+    margin-bottom: 5px;
+
+}
+
+.price_div>p:nth-child(2) {
+    margin-top: 12px;
+    font-size: 19px;
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.description {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.description span {
+    color: #66509a;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.mySlides>button {
+    background-color: rgb(102, 80, 154);
+    font-size: 20px;
+    color: white;
+    border-radius: 0 0 12px 12px;
+    border: transparent;
+    padding: 8px 0px 8px 0px;
+}
+
+.mySlides>button:hover {
+    cursor: pointer;
+    background-color: rgb(121, 109, 147);
+}
+
+/* ____________card css end_____________ */
+
+
+/* ***************section 4 HAIR END ************** */
+/* ***************section 4 (HAIR)2  ************** */
+
+.b5_div {
+    /* height: 600px; */
+    /* background-color: #675680; */
+    width: 68%;
+    /* border: 1px solid green; */
+    /* height: 200px; */
+    margin: auto;
+    margin-top: 30%;
+}
+
+.b5_div>h1 {
+    color: black;
+    font-size: 30px;
+}
+
+.b5_sub_div {
+    /* border: 1px solid black; */
+    /* height: 100px; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.b5_div>h1 {
+    margin-bottom: 20px;
+}
+
+.b5_sub_div>div {
+    width: 32%;
+    /* border: 1px solid red; */
+    background-color:
+        #66509a;
+    border-radius: 12px 12px 12px 12px;
+    overflow: hidden;
+    /* padding: 10px; */
+    /* height: 80px; */
+}
+
+.b5_sub_div>div>div {
+    width: 50%;
+    border-radius: 50% 50% 50% 50%;
+    background-color:
+        #9785c1;
+    display: flex;
+    justify-content: center;
+    margin-left: 60%;
+    margin-top: -20px;
+
+}
+
+.b5_sub_div>div img {
+    width: 30%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+}
+
+.b5_sub_div>div>h2 {
+    margin-top: -15px;
+    color: white;
+    padding-bottom: 5px;
+    padding-left: 10px;
+
+
+
+}
+
+.b5_sub_div>div>p {
+    color: #a79ac5;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* ************************SECTION 5 (SKin) 1 */
+
+.skin {
+    background-image: url("https://res.cloudinary.com/mosaic-wellness/image/upload/v1618391146/new%20home/image_24_3.png");
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: 35% 95%;
+    background-blend-mode: multiply;
+    /* height: 547px; */
+    /* height: 20%; */
+}
+
+.b6_div {
+    /* height: 600px; */
+    background-color: #416d96;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.slideshow-container2 .description span {
+    color: #1964ab;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.slideshow-container2 .mySlides>button {
+    background-color: #1964ab;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 0 12px 12px;
+    border: transparent;
+    padding: 8px 0px 8px 0px;
+}
+
+.slideshow-container2 .mySlides>button:hover {
+    cursor: pointer;
+    background-color: #5ca3e5;
+}
+
+
+
+/* ************************SECTION 5 (SKin) 2 */
+.b6_sub_div>div {
+
+    background-color:
+        #1964ab;
+
+}
+
+.b6_sub_div>div>div {
+
+    background-color:
+        #5ca3e5;
+
+
+}
+
+/*********** section best selling******************************  */
+.best_selling {
+    width: 100%;
+    margin-top: 10%;
+
+}
+
+.best_selling_div {
+    width: 70%;
+    /* border: 1px solid; */
+    margin: auto;
+
+}
+
+.best_heading>h1 {
+    font-weight: normal;
+    font-size: 35px;
+}
+
+.best_heading>p {
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 20px;
+}
+
+.Bestbtn {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.Bestbtn>div {
+    padding: 10px 60px 10px 60px;
+    border-radius: 10px;
+    /* border: 1px solid blue; */
+    cursor: pointer;
+    border: transparent;
+    font-size: 18px;
+}
+
+#best_btn1 {
+    background-color: #66509a;
+    color: white;
+}
+
+#best_btn2 {
+    background-color: #e8f4ff;
+    color: #1964ab;
+}
+
+#best_btn3 {
+    background-color: #eaf3f2;
+    color: #007061;
+}
+
+#best_btn4 {
+    background-color: #fdeff0;
+    color:
+        #e86f76;
+}
+
+#best_btn5 {
+    background-color:
+        #eff4f8;
+    color: #a8a5bd;
+}
+
+.slideshow-container {
+    display: flex;
+    /* width: 100%; */
+    width: 68%;
+    overflow: scroll;
+    margin: auto;
+    margin-bottom: 200px;
+}
+
+#best_sildeshow {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}

@@ -1,0 +1,277 @@
+/*********** section best selling******************************  */
+.best_selling{
+    width: 100%;
+    margin-top: 10%;
+
+}
+.best_selling_div{
+    width: 70%;
+    /* border: 1px solid; */
+    margin: auto;
+    
+}
+
+.Bestbtn{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.Bestbtn>div{
+    padding: 10px 60px 10px 60px;
+    border-radius: 10px;
+    /* border: 1px solid blue; */
+    cursor: pointer;
+    border: transparent;
+    font-size: 18px;
+}
+#best_btn1{
+background-color: #66509a;
+color: white; 
+}
+#best_btn2{
+background-color: #e8f4ff;
+color:#1964ab; 
+}
+#best_btn3{
+background-color: #eaf3f2;
+color:#007061; 
+}
+#best_btn4{
+background-color: #fdeff0;
+color: 
+#e86f76; 
+}
+#best_btn5{
+background-color: 
+#eff4f8;
+color: #a8a5bd; 
+}
+.slideshow-container,.slideshow-container1,.slideshow-container2,.slideshow-container3 {
+    display: grid;
+    grid-template-columns: repeat(3,34%);
+        /* width: 100%; */
+        /* width: 68%; */
+        /* overflow: scroll; */
+        gap: 30px 10px;
+        margin: auto;
+        margin-bottom: 200px;
+        /* border: 2px solid gray; */
+}
+#best_sildeshow{
+    /* width: 100%; */
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+
+.slideshow-container2 .description span{
+        color:#1964ab;
+        font-weight: bold;
+        margin-right: 5px;
+    }
+.slideshow-container2 .mySlides>button{
+    background-color: #1964ab;
+    font-size: 20px;
+    color: white;
+        border-radius: 0 0 12px 12px;
+        border: transparent;
+        padding: 8px 0px 8px 0px;
+}
+.slideshow-container2 .mySlides>button:hover{
+    cursor: pointer;
+    background-color: #5ca3e5;
+}
+/* all product  */
+.slideshow-container3 .description span{
+        color:#2d8e7b;
+        font-weight: bold;
+        margin-right: 5px;
+    }
+.slideshow-container3 .mySlides>button{
+    background-color: #2d8e7b;
+    font-size: 20px;
+    color: white;
+        border-radius: 0 0 12px 12px;
+        border: transparent;
+        padding: 8px 0px 8px 0px;
+}
+.slideshow-container3 .mySlides>button:hover{
+    cursor: pointer;
+    background-color: #2d8e7b;
+}
+
+
+#sorting_div{
+    /* border:1px solid blue; */
+    width: 100%;
+    /* height: 100px; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+#sorting_div>div:nth-child(1){
+    color:#2d8e7b;
+    padding: 10px 15px;
+}
+#sorting_div>div:nth-child(2){
+    display: flex;
+    border: 1px solid #2d8e7b;
+    border-radius: 10px;
+    gap: 20px;
+}
+#p_sorting,#high,#low{
+    padding:10px 15px ;
+     border-radius: 10px;
+     cursor: pointer;
+     /* margin-left: 10px; */
+}
+#p_sorting{
+    background-color: #007061;
+    color: white;
+}
+/* ***************************************************************** */
+/* ____________________card css start______________________ */
+   .mySlides{
+        /* width:27%; */
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid red; */
+            box-shadow: 0 17.2866px 17.2866px rgb(0 0 0 / 10%);
+        justify-content: space-between;
+            border-radius: 20.7px;
+        margin-right: 30px;
+        /* overflow-x: hidden; */
+        /* align-items: stretch; */
+        /* gap:40px */
+    }
+    .mySlides>img{
+        border-radius: 15px;
+    }
+    .rating{
+        padding-left: 15px;
+        margin-top: 10px;
+    }
+   .material-icons.size_start{
+        font-size: 20px;
+        color: #e4ae2c;
+        /* margin-top: 10px; */
+        /* margin-left: 10px; */
+        /* padding-left: 10px;   */
+    }
+    .mySlides>p,.price_div{
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+    .mySlides> .brand_name{
+        font-size: 20px;
+        margin-bottom: 5px;
+      
+    }
+    .price_div{
+        display: flex;
+        justify-content: flex-start;
+        gap:10px
+        
+    }
+     .price_div sup{
+         font-size:16px;
+         font-weight: normal;
+         
+     }
+    .price_div>p:nth-child(1){
+        margin-top: 5px;
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 5px;
+       
+    }
+     .price_div>p:nth-child(2){
+        margin-top: 12px;
+        font-size: 19px;
+        text-decoration: line-through;
+        color: rgba(0, 0, 0, 0.6);
+        font-weight: 700;  
+        margin-bottom: 5px;
+    }
+    .description{
+        margin-top: 5px;
+        font-size: 16px;
+    }
+    .description span{
+        color:#66509a;
+        font-weight: bold;
+        margin-right: 5px;
+    }
+.mySlides>button{
+    background-color: rgb(102, 80, 154);
+    font-size: 20px;
+    color: white;
+        border-radius: 0 0 12px 12px;
+        border: transparent;
+        padding: 8px 0px 8px 0px;
+}
+.mySlides>button:hover{
+    cursor: pointer;
+    background-color: rgb(121, 109, 147);
+}
+/* ____________card css end_____________ */
+
+
+/* **********************************section 2*************  */
+.B2{
+    width: 100%;
+    background-color: #f6f6f6;
+    
+}
+.banner2{
+    width:65%;
+    /* border: 1px solid saddlebrown; */
+    margin: auto;
+    /* height: 200px; */
+    display: flex;
+    padding-top: 10px;
+    gap:30px;
+    align-items: flex-end;
+
+}
+.banner2_div1>img{
+    width: 115%;
+    height: 95%;
+    margin-bottom: 0px;
+}
+.banner2_div2{
+    display: flex;
+    flex-direction:column ;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 210px;
+}
+.banner2_div2>h1{
+    font-size: 35px;
+    margin-bottom: 3px;
+    font-weight: normal;
+}
+.banner2_div2>p{
+    margin-top: 3px;
+    color:rgba(0, 0, 0, 0.6);
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.banner2_div2 .btn2{
+    /* padding-left: 50px; */
+    /* padding-right: 50px; */
+    padding: 15px 70px 15px 70px;
+    border-radius: 17px;
+    cursor: pointer;
+}
+
+.banner_btn{
+    padding: 10px 20px;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    border-radius:10px ;
+    border: transparent ;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
